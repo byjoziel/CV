@@ -47,17 +47,143 @@ box-shadow: 0 35px 55px rgba(0,0,0,0.1);
     margin-top: 20px;
     text-transform: uppercase;
     text-align: center;
+    font-weight: 200;
+    line-height: 1.4em;
+    border-bottom: 1px solid;
+    
+
+}
+.profileText p{
+    font-size: 1 em;
+      font-weight:  300;
+      color: antiquewhite;
+      padding-top: 20px;
+}
+
+.contacto {
+    padding-top: 40px;
+
+}
+.titulo{
+    color: aliceblue;
+    text-transform: uppercase;
     font-weight: 600;
-    line-height: 1.4mm;
+    letter-spacing: 1px;
+    margin-bottom: 20px;
+}
+
+.contacto ul{
+    position: relative;
+}
+.contacto ul li{
+    position: relative;
+    list-style:none;
+    margin: 10px 0;
+    cursor: pointer;
+
+}
+
+.contacto ul li .icon{
+    display: inline-block;
+    width: 30px;
+    font-size: 19px;
+    color: aquamarine;
+}
+.contacto ul li span{
+    color: aliceblue;
+    font-weight: 300;
+
+}
+.contacto.educacion li{
+     margin-bottom: 15px;
+
+}
+.contacto.educacion h3:nth-child(2){
+    color: aliceblue;
+    font-weight: 500;
+    
+
+}
+.contacto.educacion h3:nth-child(3){
+    color: aliceblue;
+    font-weight: 500;
+    line-height: 25px;
+
+}
+.contacto.educacion h3:nth-child(4){
+    color: aliceblue;
+    font-weight: 500;
+    line-height: 25px;
+
+}
+.contacto.educacion h3:nth-child(1){
+    color: aliceblue;
+    font-weight: 500;
+    line-height: 25px;
+    
 
 }
 
 
-
-
-.container .right _Side {
+.container .right_Side {
     position: relative;
     background: #ffffff;
     padding: 40px;
     
 }
+.about {
+    margin-bottom: 50px;
+    
+}
+.about:last-child {
+    margin-bottom: 0;
+
+}
+.titulo2 {
+    color:rgb(17, 15, 35);
+    font-size: 2.1em;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    margin-bottom: 10px;
+    margin-top: 20px;
+    
+    
+}
+.stu{
+    color:rgb(42, 11, 180);
+    border-bottom: 1px solid;
+    
+}
+
+.obj{
+    color: #060414;
+    margin-top: 10px;
+    
+    
+
+}
+.about.apt .lineas{
+position: relative;
+width: 60%;
+height: 12px;
+background: #343232;
+display: block;
+margin-top: 5px;
+
+
+}
+.about.apt .lineas div{
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    background: #2569a5;
+    
+}
+.about ul li{
+    list-style:none;
+}
+.about.apt  ul li{
+    list-style:none;
+}
+
