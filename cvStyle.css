@@ -46,7 +46,7 @@ box-shadow: 0 35px 55px rgba(0,0,0,0.1);
     font-size: 1.5em;
     margin-top: 20px;
     text-transform: uppercase;
-    text-align: center;
+    text-align: justify;
     font-weight: 200;
     line-height: 1.4em;
     border-bottom: 1px solid;
@@ -70,6 +70,7 @@ box-shadow: 0 35px 55px rgba(0,0,0,0.1);
     font-weight: 600;
     letter-spacing: 1px;
     margin-bottom: 20px;
+    text-align: justify;
 }
 
 .contacto ul{
@@ -90,6 +91,11 @@ box-shadow: 0 35px 55px rgba(0,0,0,0.1);
     color: aquamarine;
 }
 .contacto ul li span{
+    color: aliceblue;
+    font-weight: 300;
+
+}
+.contacto ul li a{
     color: aliceblue;
     font-weight: 300;
 
@@ -149,6 +155,9 @@ box-shadow: 0 35px 55px rgba(0,0,0,0.1);
     
     
 }
+.about.titulo3{
+    text-align: justify;
+}
 .stu{
     color:rgb(42, 11, 180);
     border-bottom: 1px solid;
@@ -185,5 +194,50 @@ margin-top: 5px;
 }
 .about.apt  ul li{
     list-style:none;
+}
+.botonDescarga{
+    width: 100%;
+    max-width: 300px;
+    margin: 20px;
+    padding-left: 20px;
+    background: #ffffff;
+    text-align: center;
+    border: 2px solid;
+
+}
+.descargar-ahora{
+    display:inline-block;
+    text-decoration: none;
+    padding: 15px 20px;
+    background: #e1e0e8;
+    color: floralwhite;
+    border-radius: 5px;
+    
+}
+.descargar-ahora:hover{
+    opacity: 0.7;
+
+}
+.btn-descarga{
+    display: inline-block;
+    padding: 15px 25px;
+    background: #2569a5;
+    color: floralwhite;
+    border: none;
+    font-size: 16px;
+    margin-top: 20px;
+    border-radius: 5px;
+    outline: 0px;
+    cursor: pointer;
+
+}
+.btn-descarga:hover{
+    opacity: 0.7;
+}
+.botonDescarga i{
+    margin-left: 5px;
+}
+div.botonDescarga{
+   border: #ffffff;
 }
 
