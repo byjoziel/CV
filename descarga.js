@@ -1,8 +1,8 @@
 var boton = document.getElementById("download");
-var contador = 5;
+
 var etiqueta = document.createElement("p");
 
-etiqueta.innerHTML = "<b>5 segundo para descargar.</b>"
+
 var id;
 boton.parentNode.replaceChild(etiqueta, boton);
 

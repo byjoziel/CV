@@ -191,6 +191,10 @@ margin-top: 5px;
 }
 .about ul li{
     list-style:none;
+    line-height: 1.4em;
+}
+.about ul li span{
+    line-height: 2em;
 }
 .about.apt  ul li{
     list-style:none;
@@ -221,8 +225,8 @@ margin-top: 5px;
 .btn-descarga{
     display: inline-block;
     padding: 15px 25px;
-    background: #2569a5;
-    color: floralwhite;
+    background: #f1f3f4;
+    color: rgb(14, 9, 1);
     border: none;
     font-size: 16px;
     margin-top: 20px;
@@ -238,6 +242,13 @@ margin-top: 5px;
     margin-left: 5px;
 }
 div.botonDescarga{
-   border: #ffffff;
+   border: #c33030;
+}
+button i{
+    display: inline-block;
+    width: 30px;
+    font-size: 19px;
+    color: rgb(245, 27, 27);
+
 }
 
