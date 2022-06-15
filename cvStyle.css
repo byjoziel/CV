@@ -189,6 +189,9 @@ margin-top: 5px;
     background: #2569a5;
     
 }
+address{
+    display: block;
+}
 .about ul li{
     list-style:none;
     line-height: 1.4em;
