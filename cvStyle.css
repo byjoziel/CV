@@ -190,7 +190,7 @@ margin-top: 5px;
     
 }
 address{
-    display: block;
+    display: block 10;
 }
 .about ul li{
     list-style:none;
