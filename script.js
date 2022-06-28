@@ -1,7 +1,7 @@
 
 
 var clickbtn = document.getElementById("btn");
-clickbtn.onclick =btn;
+
 function descarga() {
     var doc = new jsPDF();
     var elementHTML = document.getElementById("container").innerHTML
