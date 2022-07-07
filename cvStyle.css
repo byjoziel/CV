@@ -242,17 +242,18 @@ address{
 
 }
 .btn-descarga{
-    display: inline-block;
-    padding: 15px 25px;
-    background: #f1f3f4;
-    color: rgb(14, 9, 1);
-    border: none;
-    font-size: 16px;
-    margin-top: 20px;
-    border-radius: 5px;
-    outline: 0px;
+    display: block;
+    position:fixed;
+	width:55px;
+	height:55px;
+	bottom:60px;
+	right:40px;
+	background-color:#0C9;
+	color:#FFF;
+	border-radius:50px;
+	border-radius: 50%;
+	box-shadow: 2px 2px 3px #999;
     cursor: pointer;
-
 }
 .btn-descarga:hover{
     opacity: 0.7;
@@ -263,13 +264,7 @@ address{
 div.botonDescarga{
    border: #c33030;
 }
-button i{
-    display: inline-block;
-    width: 30px;
-    font-size: 19px;
-    color: rgb(206, 79, 79);
 
-}
 
 section{
     display: inline-block;
@@ -281,4 +276,10 @@ section{
      
      letter-spacing: 3px;
      margin-bottom: 10px;
+}
+.fa-file-pdf:before{
+    padding: 0;
+    margin: 0;
+    font-size: 30px;
+    box-sizing: border-box;
 }
