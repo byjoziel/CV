@@ -3,7 +3,10 @@
 var clickbtn = document.getElementById("btn");
 
 function descarga() {
+    
     var doc = new jsPDF();
+   
+
     var elementHTML = document.getElementById("container").innerHTML
     var specialElementHandlers = {
         "#elementH": function (element, renderer){
