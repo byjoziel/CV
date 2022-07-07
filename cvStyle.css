@@ -39,6 +39,7 @@ box-shadow: 0 35px 55px rgba(0,0,0,0.1);
     align-items: center;
     padding-bottom: 20px;
     border-bottom: 1px solid rgba(255,255,255,0.2);
+    font-family: 'Roboto Flex', sans-serif;
 }
 .profileText h2{
     color: #ffffff;
@@ -47,7 +48,7 @@ box-shadow: 0 35px 55px rgba(0,0,0,0.1);
     margin-top: 20px;
     text-transform: uppercase;
     text-align: justify;
-    font-weight: 200;
+    font-weight: 600;
     line-height: 1.4em;
     border-bottom: 1px solid;
     
@@ -62,6 +63,7 @@ box-shadow: 0 35px 55px rgba(0,0,0,0.1);
 
 .contacto {
     padding-top: 40px;
+    font-family: 'Roboto Flex', sans-serif;
 
 }
 .titulo{
@@ -71,6 +73,7 @@ box-shadow: 0 35px 55px rgba(0,0,0,0.1);
     letter-spacing: 1px;
     margin-bottom: 20px;
     text-align: justify;
+    font-family: 'Roboto Flex', sans-serif;
 }
 
 .contacto ul{
@@ -81,6 +84,7 @@ box-shadow: 0 35px 55px rgba(0,0,0,0.1);
     list-style:none;
     margin: 10px 0;
     cursor: pointer;
+    font-family: 'Roboto Flex', sans-serif;
    
 
 }
@@ -174,6 +178,15 @@ box-shadow: 0 35px 55px rgba(0,0,0,0.1);
     
 
 }
+.contacto.educacion h3.titulo{
+    color: aliceblue;
+    text-transform: uppercase;
+    font-weight: 600;
+    letter-spacing: 1px;
+    margin-bottom: 20px;
+    text-align: justify;
+    font-family: 'Roboto Flex', sans-serif;
+}
 .about.apt .lineas{
 position: relative;
 width: 60%;
@@ -258,3 +271,9 @@ button i{
 
 }
 
+section{
+    
+    text-align: center;
+   align-items: center;
+    
+}
